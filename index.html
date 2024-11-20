@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sinare Spa</title>
+    <link rel="shortcut icon" href="fav-logo.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 
 </head>
 <body>
@@ -13,14 +17,14 @@
     <header>
         <!--Nav-->
         <div class="nav container">
-            <a href="#" class="logo">Sinare Spa</a>
+            <a href="#home" class="logo">Sinare Spa</a>
                 <!--NavBar-->
             <div class="navbar">
-                <li><a href="#" class="nav-link">Sobre Nos</a></li>
-                <li><a href="#" class="nav-link">Equipe</a></li>
-                <li><a href="#" class="nav-link">Serviços</a></li>
-                <li><a href="#" class="nav-link">Agenda</a></li>
-                <li><a href="#" class="nav-link">Contato</a></li>
+                <li><a href="#about" class="nav-link">Sobre Nós</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#services" class="nav-link">Serviços</a></li>
+                <li><a href="#services" class="nav-link">Agenda</a></li>
+                <li><a href="#testimonial" class="nav-link">Contato</a></li>
             </div>
                 <!--Menu Icon-->
             <div class="menu-icon">
@@ -38,22 +42,22 @@
                 <h3>Nos podemos ajudar você</h3>
                 <h2>a revelar <br> a beleze natural <br> da sua pele</h2>
                 <div class="home-btns">
-                    <a href="#" class="book-btn btn">Reserve Agora</a>
-                    <a href="#" class="explore-btn btn">Explore</a>
+                    <a href="#services" class="book-btn btn">Reserve Agora</a>
+                    <a href="#about" class="explore-btn btn">Explore</a>
                 </div>
                 <!--Home Image-->
                 <div class="home-img">
-                    <img src="imagem3.jpeg" alt="">
+                    <img src="fav-logo.jpeg" alt="">
                 </div>
                 <!--Contato-->
                 <div class="contact-info">
                     <div class="contact-info-box">
                         <i class='bx bxs-map'></i>
-                        <span>São Paulo, SP</span>
+                        <span>Alameda Dom Predo de Alcantara, 17</span>
                     </div>
                     <div class="contact-info-box">
                         <i class='bx bxs-phone'></i>
-                        <span>(11)935367788</span>
+                        <span>(11)28337444</span>
                     </div>
                     <div class="contact-info-box">
                         <i class='bx bxs-envelope' ></i>
@@ -63,7 +67,7 @@
             </div>
             <!--2en home imagem para cecular -->
             <div class="home-bg">
-                <img src="imagem3.jpeg" alt="">
+                <img src="fav-logo.jpeg" alt="">
             </div>
         </div>
     </section>
@@ -72,12 +76,18 @@
         <!--Sobre Text-->
         <div class="about-text">
         <!--Heading-->
-        <h2 class="heading"><span>Sobre Nos</span></h2>
+        <h2 class="heading"><span>Sobre Nós</span></h2>
         <h1>Sinare spa é um espaço de acolhimento e segurança para os dias corridos em que precisa de um ombro amigo.</h1>    
         <p>Oferecemos 12 serviços para te ajudar com as dores musculares e a tensão, além de atendimento psicológico e nutricional para encontrar um equilíbrio  de mente e corpo.
-        Um verdadeiro refúgio que vai além de estetica, visando a saúde e bem-estar dos nossos clientes, com um atendimento personalizado e humanizado.
+        Um verdadeiro refúgio que vai além de estetica, visando a saúde e bem-estar dos nossos clientes, com um atendimento personalizado e humanizado. <br><br> <span>Missão:</span> Melhorar a qualidade de vida dos nossos clientes e fazer com que se sintam únicos para curtirem seu momento. <br>
+        <span>Visão:</span> Ser referência pela qualidade do atendimento e serviços prestados; e pelo nosso relacionamento com os clientes <br> <span>Valores:</span> Temos como principais pilares a segurança e a ética, valorizando:
+        - cura 
+        - equilíbrio mental 
+        - conexão 
+        - honestidade e qualidade 
+        - respeito
             </p>
-        <a href="#" class="learn-more">
+        <a href="#testimonial" class="learn-more">
             <span>Saiba mais</span>
             <i class='bx bx-right-arrow-alt'></i>
         </a>
@@ -86,7 +96,7 @@
         <div class="about-data">
         <!--Box 1-->
         <div class="about-box">
-            <img src="drenagem-facial.png" alt="">
+            <img src="services4.jpeg" alt="">
             <div class="about-overlay">
                 <div class="overlay-text">
                     <h2>Reflexologia podal</h2>
@@ -106,7 +116,7 @@
         </div>
         <!--Box 3-->
         <div class="about-box">
-            <img src="drenagem2.jpeg" alt="">
+            <img src="services2.jpeg" alt="">
             <div class="about-overlay">
                 <div class="overlay-text">
                     <h2>Massagem com pedras quentes</h2>
@@ -117,7 +127,443 @@
         </div>
     </section>
     <!--Servicos-->
-    
+    <section class="services container" id="services">
+        <!--Services content-->
+        <div class="swiper services-content">
+            <div class="swiper-wrapper">
+                <!--Box 1-->
+              <div class="swiper-slide">
+                <div class="services-box">
+                    <div class="ser-img">
+                        <img src="services6.jpeg" alt="">
+                    </div>
+                    <div class="box-data">
+                        <h2 class="heading">Nossos serviços</h2>
+                        <h2>Drenagem Facial</h2>
+                        <p>A drenagem promove relaxamento e bem-estar, atuando sobre o sistema linfático eliminando toxinas, edemas e melhorando a nutrição celular.
+                        </p>
+                        <div class="packge">
+                            <div class="p-box">
+                                <i class='bx bxs-badge-check'></i>
+                                <span>30 minutos</span>
+                            </div>
+                            <!--Btn-->
+                            <a href="#" class="book-now btn">Reserve Agora</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+                <!--Box 2-->
+                <div class="swiper-slide">
+                    <div class="services-box">
+                        <div class="ser-img">
+                            <img src="services9.jpeg" alt="">
+                        </div>
+                        <div class="box-data">
+                            <h2 class="heading">Nossos serviços</h2>
+                            <h2>Reflexologia podal</h2>
+                            <p>É uma técnica que visa estimular vários pontos do corpo através das plantas dos pés. A técnica alivia dores, cólica, melhora a circulação sanguínea
+                            </p>
+                            <div class="packge">
+                                <div class="p-box">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <span>20 minutos</span>
+                                </div>
+                                <!--Btn-->
+                                <a href="#" class="book-now btn">Reserve Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                    <!--Box 3-->
+              <div class="swiper-slide">
+                <div class="services-box">
+                    <div class="ser-img">
+                        <img src="services8.jpeg" alt="">
+                    </div>
+                    <div class="box-data">
+                        <h2 class="heading">Nossos serviços</h2>
+                        <h2>Candle massagem</h2>
+                        <p>A candle massagem é uma das queridinhas do spa por oferecer uma gama grande e variada de benefícios, sendo os principais: alívio de tensão e rigidez muscular, insônia, dores, fadiga, melhora a circulação, mantém a pele hidratada por 15 dias</p>
+                        <div class="packge">
+                            <div class="p-box">
+                                <i class='bx bxs-badge-check'></i>
+                                <span>50 minutos</span>
+                            </div>
+                            <!--Btn-->
+                            <a href="#" class="book-now btn">Reserve Agora</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+                <!--Box 4-->
+                <div class="swiper-slide">
+                    <div class="services-box">
+                        <div class="ser-img">
+                            <img src="services2.jpeg" alt="">
+                        </div>
+                        <div class="box-data">
+                            <h2 class="heading">Nossos serviços</h2>
+                            <h2>Massagem com pedras quentes</h2>
+                            <p>Essa massagem tem como propósito o alívio de dor e a melhora do sono, além do relaxamento. Ela é ótima para relaxar o músculo, dores crônicas, lesões na pele, tensão muscular, redução do stress, ajuda na retenção hídrica, evita a insônia e melhora o funcionamento intestinal.</p>
+                            <div class="packge">
+                                <div class="p-box">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <span>50 minutos</span>
+                                </div>
+                                <!--Btn-->
+                                <a href="#" class="book-now btn">Reserve Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                    <!--Box 5-->
+              <div class="swiper-slide">
+                <div class="services-box">
+                    <div class="ser-img">
+                        <img src="services14.jpeg" alt="">
+                    </div>
+                    <div class="box-data">
+                        <h2 class="heading">Nossos serviços</h2>
+                        <h2>Massagem modeladora</h2>
+                        <p>Tem o objetivo de harmonizar o corpo e reduzir medidas, combatendo a retenção hídrica.
+                        </p>
+                        <div class="packge">
+                            <div class="p-box">
+                                <i class='bx bxs-badge-check'></i>
+                                <span>50 minutos</span>
+                            </div>
+                            <!--Btn-->
+                            <a href="#" class="book-now btn">Reserve Agora</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+                <!--Box 6-->
+                <div class="swiper-slide">
+                    <div class="services-box">
+                        <div class="ser-img">
+                            <img src="services12.jpeg" alt="">
+                        </div>
+                        <div class="box-data">
+                            <h2 class="heading">Nossos serviços</h2>
+                            <h2>Hidratação Corporal</h2>
+                            <p>É um processo de hidratação e nutrição da pele por meio de produtos indicados para cada tipo de pele (seca, envelhecida, ou desidratada) com o objetivo de reestabelecer o equilíbrio e a barreira cutânea da pele, deixando macia e suave.
+                            </p>
+                            <div class="packge">
+                                <div class="p-box">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <span>50 minutos</span>
+                                </div>
+                                <!--Btn-->
+                                <a href="#" class="book-now btn">Reserve Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                    <!--Box 7-->
+              <div class="swiper-slide">
+                <div class="services-box">
+                    <div class="ser-img">
+                        <img src="services10.jpeg" alt="">
+                    </div>
+                    <div class="box-data">
+                        <h2 class="heading">Nossos serviços</h2>
+                        <h2>Banho de imersão</h2>
+                        <p>Realizado em banheira, com água aquecida com temperatura que pode chegar a 38 graus. Ajuda a relaxar, hidratar a pele, diminuir dores de cabeça, elimina toxinas, recupera a musculatura e  aliviar o estresse.
+                        </p>
+                        <div class="packge">
+                            <div class="p-box">
+                                <i class='bx bxs-badge-check'></i>
+                                <span>20 minutos</span>
+                            </div>
+                            <!--Btn-->
+                            <a href="#" class="book-now btn">Reserve Agora</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+                <!--Box 8-->
+                <div class="swiper-slide">
+                    <div class="services-box">
+                        <div class="ser-img">
+                            <img src="services11.jpeg" alt="">
+                        </div>
+                        <div class="box-data">
+                            <h2 class="heading">Nossos serviços</h2>
+                            <h2>Massagem miofacial </h2>
+                            <p>Libera a tensão dos tecidos, auxilia na redução da dor, melhora a mobilidade e  flexibilidade e no fluxo sanguíneo para os músculos. 
+                                Apos a massagem será uma sensação de relaxamento profundo e um aumento da amplitude de movimento.
+                            </p>
+                            <div class="packge">
+                                <div class="p-box">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <span>50 minutos</span>
+                                </div>
+                                <!--Btn-->
+                                <a href="#" class="book-now btn">Reserve Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                    <!--Box 9-->
+              <div class="swiper-slide">
+                <div class="services-box">
+                    <div class="ser-img">
+                        <img src="services13.jpeg" alt="">
+                    </div>
+                    <div class="box-data">
+                        <h2 class="heading">Nossos serviços</h2>
+                        <h2>Argiloterapia </h2>
+                        <p>Possui ação terapêutica rica em minerais, tem ação antioxidante, antisséptica, ajuda a desinflamar, remover impurezas e desintoxicar a pele na região aplicada.
+                            Ela ativa a circulação sanguínea da região.                            
+                        </p>
+                        <div class="packge">
+                            <div class="p-box">
+                                <i class='bx bxs-badge-check'></i>
+                                <span>20 minutos</span>
+                            </div>
+                            <!--Btn-->
+                            <a href="#" class="book-now btn">Reserve Agora</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+                 <!--Box 10-->
+                 <div class="swiper-slide">
+                    <div class="services-box">
+                        <div class="ser-img">
+                            <img src="services.jpeg" alt="">
+                        </div>
+                        <div class="box-data">
+                            <h2 class="heading">Nossos serviços</h2>
+                            <h2>Massagem relaxante </h2>
+                            <p>Na massagem relaxante são feitos movimentos suaves e firmes para aliviar a tensão e promover relaxamento mental e físico.                           
+                            </p>
+                            <div class="packge">
+                                <div class="p-box">
+                                    <i class='bx bxs-badge-check'></i>
+                                    <span>50 minutos</span>
+                                </div>
+                                <!--Btn-->
+                                <a href="#" class="book-now btn">Reserve Agora</a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              <!--Box 11-->
+              <div class="swiper-slide">
+                <div class="services-box">
+                    <div class="ser-img">
+                        <img src="services7.jpeg" alt="">
+                    </div>
+                    <div class="box-data">
+                        <h2 class="heading">Nossos serviços</h2>
+                        <h2>Ventosaterapia</h2>
+                        <p>É indicada para o tratamento de desconfortos agudos, lesão ou dor crônica, aliviar a dor das articulações como artrite e  elimina dores de caimbras.
+                        </p>
+                        <div class="packge">
+                            <div class="p-box">
+                                <i class='bx bxs-badge-check'></i>
+                                <span>50 minutos</span>
+                            </div>
+                            <!--Btn-->
+                            <a href="#" class="book-now btn">Reserve Agora</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Swiper Btns-->
+          <div class="slider-btns">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+    </section>
+    <section class="blog container" id="blog">
+        <!--blog content-->
+        <div class="swiper blog-content">
+            <div class="swiper-wrapper">
+                <!--Box 1-->
+              <div class="swiper-slide">
+                <div class="blog-box">
+                    <div class="ser-img">
+                        <img src="blog1.jpg" alt="">
+                    </div>
+                    <div class="box-data">
+                        <h2 class="heading">Blog</h2>
+                        <h2>Aqui estão 5 dicas para dormir melhor e melhorar a aparência da sua pele:</h2>
+                        <p>1. Estabeleça uma rotina de sono regular: Durma 7-8 horas por noite. Mantenha horários consistentes.
+                            2. Crie um ambiente relaxante: Temperatura ambiente confortável. Silêncio ou ruído branco. Luzes suaves ou apagadas.
+                            3. Hidrate-se antes de dormir: Beba água durante o dia. Evite líquidos antes de dormir.
+                            4. Evite estímulos antes de dormir: Desligue dispositivos eletrônicos. Evite cafeína e álcool. Pratique técnicas de relaxamento.
+                            * Evite comer antes de dormir.
+                            * Faça exercícios regularmente.
+                            * Gerencie o estresse.
+                            * Um sono reparador e uma rotina de cuidados com a pele podem ajudar a:
+                            * Reduzir rugas e linhas finas.
+                            * Melhorar a textura da pele.
+                            * Aumentar a produção de colágeno.
+                            
+                            5." Candle Massagem é uma técnica perfeita para ajudá-lo a alcançar um sono profundo e restaurador
+                            
+                            Chamada para ação
+                            Experimente a Candle Massagem hoje mesmo e desfrute de um sono melhor amanhã</p>
+                        
+                    </div>
+                </div>
+              </div>
+                  <!--Box 2-->
+                  <div class="swiper-slide">
+                    <div class="blog-box">
+                        <div class="ser-img">
+                            <img src="blog2.avif" alt="">
+                        </div>
+                        <div class="box-data">
+                            <h2 class="heading">Blog</h2>
+                            <h2>Dicas para manter a pele hidratada no inverno </h2>
+                            <p>1.Beber no mínimo dois litros de água por dia.
+
+                                2.Evitar banhos quentes e muito demorados; evitar se ensaboar demais e usar buchas, que também contribuem para alterar a composição do manto hidrolipídico (hidratante natural produzido pelo organismo) que protege a pele.
+                                
+                                3.Usar o hidratante logo após sair do box – ainda no banheiro – com aquele vaporzinho pós-banho, que ajuda na penetração do creme.
+                                
+                                4.Para peles oleosas, e acneicas, evitar hidratante comum no rosto, usar oil free nas áreas de maior oleosidade (rosto e tórax).
+                                Os lábios também costumam ressecar muito no inverno.
+                                
+                                5.É importante usar hidratantes específicos para essa região e, assim, evitar rachaduras.
+                                
+                                6.Usar filtro solar diariamente.</p>
+                            
+                        </div>
+                    </div>
+                  </div>
+                   <!--Box 3-->
+                   <div class="swiper-slide">
+                    <div class="blog-box">
+                        <div class="ser-img">
+                            <img src="blog3.jpg" alt="">
+                        </div>
+                        <div class="box-data">
+                            <h2 class="heading">Blog</h2>
+                            <h2>10 óleos essenciais e no que eles ajudam</h2>
+                            <p>1 óleo de lavando(ajuda a relaxar,reduz ansiedade e melhora no sono).
+                                2 óleo de melaleuca (possui propriedades antimicrobianos e anti-inflamatórios,útil para acne e infecções).
+                                3 óleo de eucalipto (alivia a congestão respiratória e tem propriedades antiinflamatório).
+                                4 óleo de hortelã-pimenta(ajuda dores de cabeça e melhora a clareza mental).
+                                5 óleo de limão(tem propriedades antioxidantes e pode ajudar a melhorar o humor e a concentração).
+                                6 óleo de laranja doce(Promove a sensação de felicidade e reduz o estresse).
+                                7 óleo de alecrim(estimula a memória,melhora a concentração e pode ajudar na dor muscular).
+                                8 óleo Ylang-Yang(hidrata e perfuma a pele,promove relaxamento e bem estar).
+                                9 óleo de camomila(conhecido por suas propriedades calmantes,ajuda na ansiedade e na insônia).
+                                10 óleo de Frankincense (possui propriedades relaxantes e embelezador, estimula as defesas naturais do organismo).</p>
+                            
+                        </div>
+                    </div>
+                  </div>
+                   <!--Box 4-->
+                   <div class="swiper-slide">
+                    <div class="blog-box">
+                        <div class="ser-img">
+                            <img src="blog4.webp" alt="">
+                        </div>
+                        <div class="box-data">
+                            <h2 class="heading">Blog</h2>
+                            <h2>Emagrecimento</h2>
+                            <p>Emagrecer não é apenas estática mas sim saúde, o spa sinare oferece diversos serviços que podem facilitar essa jornada além de te proporcionar relaxamento e um ambiente seguro onde suas dores são ouvidas, tudo é pensado para sua saúde e bem estar: 
+                                1. Nutricionista 
+                                A alimentação é fundamental para o processo de emagrecimento, nosso espaço conta uma ótima profissão para que você otimize seu tempo e tenha oque precisa em um único lugar.
+                                2. Pacote detox 
+                                O pacote detox tem incluso Drenagem linfática manual Corporal e argiloterapia, a Drenagem ajuda a desinchar seu corpo e fazer com que seu sistema linfático desconjestione e a argiloterapia tem efeito hidratante, renovação celular e ajuda a combater a flacidez
+                                3. massagem modeladora
+                                A massagem modeladora é uma técnica que visa melhorar o contorno facial, trazendo harmonia e autoestima
+                                4. Tratamento psicológico 
+                                Sabemos que muitas vezes a origem do excesso de peso é uma distorção psicológica de imagem ou até mesmo um sentimento reprimido, por isso nosso spa oferece tratamento psicológico para tratar a causa e não apenas o problema.
+                                5. Massagem relaxante 
+                                O stress também é um agravante para quem procura emagrecer, ele aumenta o nível de cortisol no corpo (hormônio que acumula gordura) além de que deixa as pessoas mais ansiosas e isso faz com que queiram comer mesmo sem estarem com fome.
+                                
+                                Agende seu horário e permita que o spa sinare faça parte da sua jornada.</p>
+                            
+                        </div>
+                    </div>
+                  </div>
+
+        </div>
+    </section>
+    <!--Avaliações-->
+    <section class="testimonial container" id="testimonial">
+        <h2 class="heading">Avaliações</h2>
+        <h3>O que nossos clientes <br/> 
+            dizem sobre nós</h3>
+    <!--Avaliações data-->
+    <div class="testimonial-data">
+        <!--Box 1-->
+        <div class="t-box">
+            <div class="t-img">
+                <img src="avaliacao1.jpg" alt="">
+                <i class='bx bxs-quote-alt-right'></i>
+            </div>
+            <h2>Erica Silva</h2>
+            <p>Muito aconchegante e relaxante não á tratamento melhor, você vai adorar.</p>
+        </div>
+          <!--Box 2-->
+          <div class="t-box">
+            <div class="t-img">
+                <img src="avaliacao2.jpg" alt="">
+                <i class='bx bxs-quote-alt-right'></i>
+            </div>
+            <h2>Dani Moura</h2>
+            <p>Muito aconchegante e relaxante não á tratamento melhor, você vai adorar.</p>
+        </div>
+          <!--Box 3-->
+          <div class="t-box">
+            <div class="t-img">
+                <img src="avaliacao3.jpg" alt="">
+                <i class='bx bxs-quote-alt-right'></i>
+            </div>
+            <h2>Tati Silva</h2>
+            <p>Muito aconchegante e relaxante não á tratamento melhor, você vai adorar.</p>
+        </div>
+    </div>
+    </section>
+    <!--Footer-->
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="#home" class="logo">Sinare</a>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Serviços</h3>
+                <a href="#">Drenagem</a>
+                <a href="#">Massagem</a>
+                <a href="#">Argiloterapia</a>
+            </div>
+            <div class="footer-box">
+                <h3>Politicas</h3>
+                <a href="#">Privacidade</a>
+                <a href="#">Politica de Privacidade</a>
+                <a href="#">Cookies</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contato</h3>
+                <p>Alameda Dom Pedro de Alcantara, 17 </p>
+                <p>São Paulo SP</p> 
+                <p>São Bernardo</p> 
+                <p>11 2833-7444</p>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>Copyright &#169; 2024 Sinare Spa | Todos direitos Reservados.<br>By DevJailson</p>
+    </div>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--JS-->
     <script src="main.js"></script>
 </body>
