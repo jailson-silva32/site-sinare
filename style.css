@@ -405,6 +405,68 @@ font-size: 1.8rem;
 .p-box span{
     font-weight: 500;
 }
+
+/*Banner*/
+.banner .heading{
+    margin-bottom: 1rem;
+}
+.serr-img{
+    position: relative;
+    width: 680px;
+    height: 450px;
+    margin-top: 1rem;
+}
+.serr-img::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    border: 1px solid var(--main-color);
+    background: transparent;
+    z-index: -1;
+}
+.serr-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.banner-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.banner-data h2{
+font-size: 1.8rem;
+}
+.banner-data p{
+    font-size: 1.075rem;
+    color: var(--text-alter-color);
+    letter-spacing: 1px;
+    margin: 1.5rem 0;
+}
+.packge{
+    display: grid;
+    row-gap: 1rem;
+    margin: 2rem 0 1rem;
+}
+.p-box{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.p-box .bx{
+    font-size: 1.2rem;
+    color: #d1a670;
+}
+.p-box span{
+    font-weight: 500;
+}
+
+
+
 .book-now{
     max-width: 150px;
     text-align: center;

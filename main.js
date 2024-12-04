@@ -32,6 +32,19 @@ var swiper = new Swiper(".services-content", {
     //   prevEl: ".swiper-button-prev",
     // },
   });
+  var swiper = new Swiper(".banner-content", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 6500,
+      disableOnInteraction: false,
+    }
+    
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
+  });
   //Header
   let header = document.querySelector('header')
 
